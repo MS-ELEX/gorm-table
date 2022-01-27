@@ -2,7 +2,7 @@
 Table作成機能の調整
 
 
-’'‘’mermaid
+```mermaid
 sequenceDiagram
   ユーザ    ->> +Vue         : ログインボタンクリック
   Vue      ->> +Laravel     : ログインAPI
@@ -15,3 +15,4 @@ sequenceDiagram
     Laravel ->> -Vue        : failure
   end
   Vue       ->> -ユーザ      : 結果表示
+  ```
