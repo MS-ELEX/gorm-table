@@ -2,7 +2,7 @@
 Table作成機能の調整
 
 
-```mermaid
+``` Mermaid
 sequenceDiagram
   ユーザ    ->> +Vue         : ログインボタンクリック
   Vue      ->> +Laravel     : ログインAPI
